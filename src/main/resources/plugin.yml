@@ -1,0 +1,4 @@
+name: CFBanner
+version: 2.02
+author: CainFoool
+main: org.cain.cfbanner.CFBanner
