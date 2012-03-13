@@ -2,7 +2,7 @@ package org.cain.cfbanner.listeners;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.*;
-import org.bukkit.event.player.PlayerLoginEvent;
+import org.bukkit.event.player.*;
 
 public class PlayerListener implements Listener {
 	
@@ -11,7 +11,7 @@ public class PlayerListener implements Listener {
 	String ZOMBE_NOCLIP = "§f §f §4 §0 §9 §6";
 	
 	@EventHandler( priority = EventPriority.NORMAL )
-	public void onPlayerLogin(PlayerLoginEvent e) {
+	public void onPlayerJoin(PlayerJoinEvent e) {
 		Player p = e.getPlayer();
 		if(!p.hasPermission("cfbanner.zombe.fly")) {
 			p.sendMessage(ZOMBE_FLY);
