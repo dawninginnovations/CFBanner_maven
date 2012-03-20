@@ -10,7 +10,7 @@ public class PlayerListener implements Listener {
 	String ZOMBE_CHEAT = "§f §f §2 §0 §4 §8";
 	String ZOMBE_NOCLIP = "§f §f §4 §0 §9 §6";
 	
-	@EventHandler( priority = EventPriority.NORMAL )
+	@EventHandler( priority = EventPriority.HIGH )
 	public void onPlayerJoin(PlayerJoinEvent e) {
 		Player p = e.getPlayer();
 		if(!p.hasPermission("cfbanner.zombe.fly")) {

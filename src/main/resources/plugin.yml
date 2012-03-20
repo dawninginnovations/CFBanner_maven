@@ -1,4 +1,5 @@
 name: CFBanner
-version: 2.03
+version: 2.04
 author: CainFoool
 main: org.cain.cfbanner.CFBanner
+description: Internal release by frelling while CainFoool is busy
